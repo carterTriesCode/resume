@@ -143,8 +143,8 @@ section a:hover {
     color:#3e3e95;
 }
 
-form.one-col input[type="text"],
-form.one-col input[type="email"],
+input[type="text"],
+input[type="email"],
 Textarea {
     background-color: hsl(131, 22%, 75%);
     color:#3e3e95;
