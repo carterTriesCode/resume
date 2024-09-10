@@ -148,6 +148,7 @@ section a:hover {
 input[type="text"],
 input[type="email"],
 Textarea {
+    border-radius: 10px;
     background-color: hsl(131, 22%, 75%);
     color:#3e3e95;
 }
