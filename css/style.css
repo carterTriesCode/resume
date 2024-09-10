@@ -134,6 +134,8 @@ section a:hover {
     justify-items:center;
     border: #5050c7 3px solid;
     padding: 10px;
+    background-color: #c5c5e0;
+    border-radius: 10px;
 }
 
 .one-col {
