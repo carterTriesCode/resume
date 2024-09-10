@@ -28,7 +28,7 @@ footer {
     justify-items: center;
 }
 
-.splash h1{
+h1{
     font-size: 50px;
     display: grid;
     justify-items: center;
@@ -112,20 +112,30 @@ section a:hover {
 .three-col {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
     padding: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.3s;
 }
 
-.three-col img {
+.card img {
     width: 200px;
     height: 200px;
 }
 
-.three-col:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(31, 9, 90, 0.2);
+    transition: 0.2s;
 }
 
 .card {
     padding: 2px 16px;
+    display: grid;
+    justify-items:center;
+    border: #5050c7 3px solid;
+    padding: 10px;
+}
+
+.one-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
